@@ -16,7 +16,7 @@
                     function(position) {
                         let lat = position.coords.latitude;
                         let lon = position.coords.longitude;
-                        let whatsappNumber = "919876543210"; // YAHAN APNA NUMBER DAALO (91 ke saath)
+                        let whatsappNumber = "919546000396"; // YAHAN APNA NUMBER DAALO (91 ke saath)
                         let message = `My%20location:%20https://maps.google.com/?q=${lat},${lon}`;
                         let url = `https://wa.me/${whatsappNumber}?text=${message}`;
                         window.open(url, '_blank');
